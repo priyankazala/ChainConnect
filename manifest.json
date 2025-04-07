@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Chain Connect",
+  "version": "1.0",
+  "description": "Automatically clicks Connect on LinkedIn profiles.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    },
+    "default_title": "Connect All"
+  },
+  "host_permissions": ["*://www.linkedin.com/*"]
+}
