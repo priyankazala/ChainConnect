@@ -12,6 +12,9 @@
         min-width: 200px; /* Ensure the minimum width */
         min-height: 200px; /* Ensure the minimum height */
       }
+      #pagecount {
+        align-self: center;
+      }
       /* From Uiverse.io by adamgiebl */
       button {
         font-family: inherit;
@@ -70,6 +73,11 @@
   </head>
   <body>
     <h1>Expand my Network.</h1>
+
+    <input id="pageCount" type="number" placeholder="Number of pages" min="1" />
+    <br />
+    <br />
+
     <button id="connectAll">
       <div class="svg-wrapper-1">
         <div class="svg-wrapper">
@@ -89,7 +97,7 @@
       </div>
       <span> Connect Me! </span>
     </button>
-
-    <script src="popup.js"></script>
+    <p id="statusText" style="margin-top: 10px">Status: Idle</p>
   </body>
+  <script src="popup.js"></script>
 </html>

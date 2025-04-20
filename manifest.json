@@ -3,7 +3,7 @@
   "name": "Chain Connect",
   "version": "1.0",
   "description": "Automatically clicks Connect on LinkedIn profiles.",
-  "permissions": ["scripting", "activeTab"],
+  "permissions": ["scripting", "tabs", "activeTab"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
